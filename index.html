@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
+    
+<body>
+ 
+    <div class="front">
+        <nav class="up">
+            <img src="img/icon2.png" alt="" > <b>Master Mind</b>
+            <img src="img/op.png" alt="" >
+        </nav>
+         <nav class="down">
+            <ul>
+                <li><a href="category.html">Category</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="feed.html">Sign In</a></li>
+                <li><a href="login.html">Feedback</a></li>
+
+            </ul>
+        
+        </nav>
+         
+        <div class="side">
+            <ul>
+                 <li>   <a href="https://www.facebook.com/"><span><img src="img/fb.png" alt=""> </span><i class="fab fa-facebook-f"></i></a></li>
+                   <li><a href="https://www.twitter.com"><span><img src="img/twi.png" alt=""></span><i class="fab fa-twitter"></i></a></li>
+                   <li> <a href="https://www.youtube.com/"><span></a> <img src="img/you.png" alt=""></span><i class="fab fa-linkedin"></i></a></li>
+                   <li> <a href="https://www.instagram.com/"><span><img src="img/insta.png" alt=""> </span><i class="fab fa-instagram"></i></a></li>
+                </ul>
+                </div>
+        <div class="title">
+            <center>
+
+            <a  href="category.html"> Master Mind</a>
+            <div class="back">
+                
+                <span>Q</span>
+                <span>U</span>
+                <span>I</span>
+                <span>Z</span>
+            </center>
+            </div>
+        </div>
+    </div>
+
+    <script>
+   let spanTexts = document.getElementsByTagName("span");
+      window.onload = function(){
+        for(spanText of spanTexts){
+            spanText.classList.add("active");
+        }
+
+      }
+
+    </script>
+</body>
+
+</html>
